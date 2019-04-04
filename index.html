@@ -1,0 +1,27 @@
+<html>
+    
+<head>
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css" />
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/answer.js"></script>
+</head>
+
+<body background="img/mountain.jpg">
+    <center><h1>Solve A Sudoku</h1></center>
+    <table id="ice" class="sd" border="0" align="center" cellspacing="1" cellpadding="1">
+	
+    </table>
+    <br>
+    <center>
+    <button type="button" onclick="clc()">Clear</button> 
+    <button type="button" onclick="get_answer()">Show Answer</button> 
+    </center>
+	<script>
+	$(function(){
+		initView();
+		initkeyboard();
+	})
+	</script>
+</body>
+
+</html>
